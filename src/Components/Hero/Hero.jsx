@@ -5,7 +5,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <Fragment>
-      <div className="hero h-auto w-100 overflow-hidden grid grid-cols-1 md:grid-cols-12 border-b border-slate">
+      <div className="hero w-100 overflow-hidden grid grid-cols-1 md:grid-cols-12 border-b border-slate">
         <div className="hero__content--first col-span-4 px-5 border-1 border-primary">
           <h2 className="hero__heading">Invest in stocks,<br /> funds and crypto</h2>
           <p className="hero__copy text-gray">Follow other investors, invest with any amount of money, build your portfolio.</p>

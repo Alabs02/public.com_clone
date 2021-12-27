@@ -1,5 +1,9 @@
+.hero {
+  height: 93vh !important;
+}
+
 .hero__content--first {
-  padding-top: 5rem;
+  padding-top: 9rem !important;
   padding-bottom: 5rem;
 }
 
