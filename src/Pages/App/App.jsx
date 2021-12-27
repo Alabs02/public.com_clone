@@ -9,7 +9,9 @@ import './App.css';
 const App = () => {
   return (
     <Fragment>
-      <AppBar />
+      <div className='absolute top-0 left-0 w-100'>
+        <AppBar />
+      </div>
       <Hero />
       <AppFooter />
     </Fragment>

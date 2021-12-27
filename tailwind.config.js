@@ -11,6 +11,7 @@ module.exports = {
       'green': '#00ff00',
       'red': '#ff0000',
       'slate': '#c0cce4',
+      'transparent': 'transparent',
       'sky': '#e0f2fe',
     },
   },

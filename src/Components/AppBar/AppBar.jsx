@@ -1,9 +1,10 @@
 import { Fragment } from "react";
+import "./AppBar.css";
 
 const AppBar = () => {
   return (
     <Fragment>
-      <div className="flex items-center justify-between py-4 px-5">
+      <div className="flex items-center justify-between py-4 px-5 bg-transparent w-100 appbar">
         <div className="brand flex items-end text-2xl font-semibold tracking-wide">
           <div className="brand__media h-10 w-10 overflow-hidden">
             <img src="/logo.png" className="brand__logo w-100 h-100 object-contain" />
