@@ -2,3 +2,10 @@
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+@media screen and (max-width: 768px) {
+  .px-22 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

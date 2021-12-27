@@ -17,7 +17,7 @@ const AppFooter = () => {
     <Fragment>
       <div className="py-20 px-22 w-100">
         <div className="w-100 grid gap-x-10 grid-cols-1 md:grid-cols-12">
-          <section className="col-span-3">
+          <section className="col-span-3 text-center md:text-left mb-5 md:mb-0">
             <h4 className="text-sm font-bold">Company</h4>
             <ul className="mt-5">
               {companyList.map((item, index) => (
@@ -25,7 +25,7 @@ const AppFooter = () => {
               ))}
             </ul>
           </section>
-          <section className="col-span-3">
+          <section className="col-span-3 text-center md:text-left mb-5 md:mb-0">
             <h4 className="text-sm font-bold">Resources</h4>
             <ul className="mt-5">
               {resourceList.map((item, index) => (
@@ -33,7 +33,7 @@ const AppFooter = () => {
               ))}
             </ul>
           </section>
-          <section className="col-span-3">
+          <section className="col-span-3 text-center md:text-left mb-5 md:mb-0">
             <h4 className="text-sm font-bold"><a href="/">Drops</a></h4>
             <ul className="mt-5">
               {dropsList.map((item, index) => (
@@ -42,7 +42,7 @@ const AppFooter = () => {
             </ul>
           </section>
           <section className="col-span-3">
-            <div className="social-media flex items-center justify-between mb-4">
+            <div className="social-media flex items-center justify-between mb-4 px-8 md:px-0 mt-10 md:mt-0">
               <a href="/" className="social-media__link" rel="noopener noreferrer">
                 <BsTwitter size={'1.5em'} />
               </a>
@@ -59,15 +59,16 @@ const AppFooter = () => {
                 <BsMedium size={'1.5em'} />
               </a>
             </div>
+            <div className="flex flex-row md:flex-col w-100">
+              <div className="card cursor-pointer bg-white grid place-items-center h-16 md:h-auto w-4/5 shadow-lg rounded-md overflow-hidden transition-all border border-white hover:border-slate mb-2 mr-2 md:mr-0">
+                <img className="w-100 h-100 object-cover" src="https://hellopublic.wpengine.com/wp-content/uploads/2020/05/app-store-apple.svg" alt="apple" />
+              </div>
 
-            <div className="card cursor-pointer bg-white grid place-items-center h-auto w-4/5 shadow-lg rounded-md overflow-hidden transition-all border border-white hover:border-slate mb-2">
-              <img className="w-100 h-100 object-cover" src="https://hellopublic.wpengine.com/wp-content/uploads/2020/05/app-store-apple.svg" alt="apple" />
+              <div className="card cursor-pointer bg-white grid place-items-center h-16 md:h-auto w-4/5 shadow-lg rounded-md overflow-hidden transition-all border border-white hover:border-slate">
+                <img className="w-100 h-100 object-cover" src="https://hellopublic.wpengine.com/wp-content/uploads/2020/05/app-store-google.svg" alt="apple" />
+              </div>
             </div>
-
-            <div className="card cursor-pointer bg-white grid place-items-center h-auto w-4/5 shadow-lg rounded-md overflow-hidden transition-all border border-white hover:border-slate">
-              <img className="w-100 h-100 object-cover" src="https://hellopublic.wpengine.com/wp-content/uploads/2020/05/app-store-google.svg" alt="apple" />
-            </div>
-
+            
             <div className="mt-10">
               <p className="font-light">
                 Check the background of this firm on

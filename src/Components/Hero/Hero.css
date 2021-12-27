@@ -32,3 +32,9 @@
   background-size: cover;
   background-image: url("https://public.com/wp-content/uploads/2021/11/homepage-poster-1024x576.jpg") !important;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 65vh !important;
+  }
+}
