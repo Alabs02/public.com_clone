@@ -7,7 +7,7 @@ const Hero = () => {
     <Fragment>
       <div className="hero w-100 overflow-hidden grid grid-cols-1 md:grid-cols-12 border-b border-slate">
         <div className="hero__content--first col-span-5 px-3 md:px-8 border-1 border-primary">
-          <h2 className="hero__heading">Invest in stocks,<br /> funds and crypto</h2>
+          <h2 className="hero__heading">Invest in stocks,<br /> funds and crypto.</h2>
           <p className="hero__copy text-gray">Follow other investors, invest with any amount of money, build your portfolio.</p>
           <div className="my-10 hidden md:block">
             <TextApp />
