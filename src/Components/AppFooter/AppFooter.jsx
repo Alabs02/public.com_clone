@@ -37,7 +37,7 @@ const AppFooter = () => {
             <h4 className="text-sm font-bold"><a href="/">Drops</a></h4>
             <ul className="mt-5">
               {dropsList.map((item, index) => (
-                <li key={index} className="text-sm mb->2 tracking-wide transition-all hover:underline"><a href={item.to}>{item.title}</a></li>
+                <li key={index} className="text-sm mb-2 tracking-wide transition-all hover:underline"><a href={item.to}>{item.title}</a></li>
               ))}
             </ul>
           </section>
